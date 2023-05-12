@@ -42,7 +42,7 @@ body {
   transition: 0.3s;
 }
 
-.header.sticky {
+.header .sticky {
   background: transparent;
 }
 
@@ -88,6 +88,7 @@ section {
 }
 
 .home {
+  padding-top: 6rem;
   display: flex;
   align-items: center;
   padding: 0 9%;
@@ -226,7 +227,7 @@ section {
 
 .home-sci a {
   position: relative;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
