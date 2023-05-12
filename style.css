@@ -216,6 +216,7 @@ section {
 }
 
 .home-sci {
+  padding: 2%;
   position: absolute;
   bottom: 3rem;
   width: 170px;
@@ -330,6 +331,7 @@ span {
 }
 
 .about-content .branches-content h1 {
+  align-items: center;
   position: relative;
   display: inline-block;
   color: var(--text-color);
@@ -760,6 +762,10 @@ span {
     height: 38px;
   }
 
+  .about-content {
+    align-items: center;
+  }
+
   .branches-content {
     align-items: center;
   }
@@ -768,6 +774,10 @@ span {
 @media (max-width: 462px) {
   .home-content h1 {
     font-size: 5.2rem;
+  }
+
+  .about-content {
+    align-items: center;
   }
 
   .batches {
@@ -806,6 +816,13 @@ span {
 
   .home-content h1 {
     font-size: 5rem;
+  }
+  .about-content {
+    text-align: center;
+  }
+
+  .batches-content {
+    align-items: center;
   }
 }
 
