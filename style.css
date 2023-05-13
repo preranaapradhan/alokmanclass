@@ -403,6 +403,11 @@ span {
   padding-left: 2rem;
 }
 
+.batches-content h2 {
+  font-size: 2.5rem;
+  align-items: center;
+}
+
 .batches-box .batches-content::before {
   content: "";
   position: absolute;
