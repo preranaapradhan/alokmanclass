@@ -316,10 +316,6 @@ span {
   animation: aboutSpinner 8s linear infinite;
 }
 
-.about-content {
-  text-align: center;
-}
-
 .about-content .branches-content {
   display: inline-block;
   align-items: center;
