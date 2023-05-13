@@ -217,8 +217,8 @@ section {
 }
 
 .home-sci {
-  padding: 2%;
-  position: absolute;
+  cursor: pointer;
+  position: relative;
   width: 170px;
   display: flex;
   justify-content: space-between;
